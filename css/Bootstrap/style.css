@@ -1,0 +1,185 @@
+/* 
+
+_______ Name : DIPAK KUMAL
+_______ Facebook : 
+_______ Twitter : 
+_______ Instagram : 
+_______ Github : 
+_______ Linkdin : 
+
+
+*/
+
+
+/* Import Google Font  */
+
+
+/* Styling All the Page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --mainBc: #00254f;
+    --color: #ecb200;
+    --bcdark: #001327;
+    --txt : #fff;
+}
+
+body {
+    color: #fff;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+
+
+/* Top Header Section Styling */
+
+.header-top {
+    background-color: var(--mainBc) !important;
+}
+
+.header-info {
+    list-style: none;
+    color: var(--color);
+    font-size: 1.3rem;
+}
+
+
+/* Navbar Section Styling */
+
+#header-bottom {
+    background-color: var(--bcdark) !important;
+    /* padding: 1.5rem 0; */
+    border-bottom: 4px solid var(--color);
+}
+
+#header-bottom .navbar .nav-link{
+    color: var(--color) !important;
+    font-size: 2rem;
+    padding: 2rem 2rem;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-background{
+    padding: 0;
+}
+
+.navbar-toggler{
+    color:var(--txt) !important;
+    border-color: var(--txt) !important;
+    margin: 1rem 0px;
+}
+.navbar-toggler-icon{
+    color:var(--txt) !important;
+    border-color: var(--txt) !important;
+}
+.navbar-toggler-icon{
+    background-image: url('images/logo.png');
+}
+
+
+.navbar-toggler-icon
+
+#header-bottom .navbar .active{
+    background-color: var(--mainBc);
+    padding: 2rem 2rem;
+}
+.dropdown-menu{
+    background-color: var(--mainBc) !important;
+}
+.dropdown-menu .dropdown-item{
+    color: var(--color);
+    font-size: 2rem;
+}
+
+/* Hover Effect */
+#header-bottom .navbar .nav-link:hover{
+    background-color: var(--mainBc);
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: var(--bcdark);
+}
+
+
+/* Responsive */
+@media (max-width: 991.98px){
+ #header-bottom .navbar {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end !important;
+}
+}
+
+
+
+
+/* Slider Section Styling */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+
+
+
+/* Latest news Section Styling */
+
+
+/* About School Section Styling */
+
+
+/* Academic Program Section Styling */
+
+
+/* Why Adarsha Section Styling */
+
+
+/* Message Calender Section Styling */
+
+
+/*  Home Gallary Section Styling */
+
+
+/* Page Footer Section Styling */
+
+
+/* Footer Section Styling */
